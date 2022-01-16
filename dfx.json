@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "micblog": {
+      "main": "src/micblog/main.mo",
+      "type": "motoko"
+    },
+    "micblog_since": {
+      "main": "src/micblog/main_since.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.0",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
